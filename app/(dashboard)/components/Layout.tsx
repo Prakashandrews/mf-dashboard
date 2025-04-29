@@ -44,9 +44,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           <ul className="space-y-1 px-2">
             <li>
               <Link 
-                href="/"
+                href="/dashboard"
                 className={`flex items-center px-4 py-3 rounded-lg font-medium text-base transition-colors duration-200 ${
-                  isActive('/')
+                  isActive('/dashboard')
                     ? 'bg-[#23284A] text-white'
                     : 'text-gray-200 hover:bg-[#23284A] hover:text-white'
                 }`}
